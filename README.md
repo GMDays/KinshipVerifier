@@ -1,9 +1,8 @@
-[![Build Status](https://travis-ci.org/tonyganga/ansible-kibana.svg?branch=master)](https://travis-ci.org/tonyganga/ansible-kibana)
-
 Kinship Verifier
 =========
 
-Kinship Verifier
+Kinship Verifier is an opensource project that executes [Kinship](https://github.com/GMDays/Kinship) verification of two images.
+
 
 Requirements
 ------------
@@ -13,6 +12,7 @@ Requirements
 
 Dependencies
 ------------
+
 
 
 ```
@@ -52,3 +52,5 @@ CONTAINER ID        IMAGE                 COMMAND                  CREATED      
 e006fcc2581d        kinshipverifier_web   "python3 manage.py..."   23 minutes ago      Up About a minute   0.0.0.0:8000->8000/tcp   kinshipverifier_web_1
 710361d0cfb1        postgres              "docker-entrypoint..."   About an hour ago   Up 2 minutes        5432/tcp                 kinshipverifier_db_1
 ```
+
+You can verify the Django app is running by going to [http://0.0.0.0:8000/admin](http://0.0.0.0:8000/admin)
